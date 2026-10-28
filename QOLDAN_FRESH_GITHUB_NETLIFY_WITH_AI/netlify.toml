@@ -1,0 +1,14 @@
+# QOLDAN v0.3 — clean start. No framework, npm or build step required.
+# This file MUST stay at the ROOT of the repository.
+[build]
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

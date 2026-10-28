@@ -1,2 +1,0 @@
-# QOLDAN-miaw-
-MIT Solve
